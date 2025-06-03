@@ -1836,14 +1836,16 @@
         "icon-rotation-alignment": "viewport",
         "icon-size": 1,
         "symbol-placement": {"base": 1, "stops": [[10, "point"], [11, "line"]]},
-        "symbol-spacing": 200,
+        "symbol-spacing": {"stops": [[6, 250], [14, 500]]},
         "text-field": "{ref}",
         "text-font": ["Open Sans Bold"],
         "text-rotation-alignment": "viewport",
         "text-size": 9,
         "text-allow-overlap": false,
         "text-ignore-placement": false,
-        "text-letter-spacing": -0.02
+        "text-letter-spacing": -0.02,
+        "icon-optional": false,
+        "icon-allow-overlap": false
       },
       "paint": {
         "text-color": [
