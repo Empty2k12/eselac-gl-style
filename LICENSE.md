@@ -1,6 +1,6 @@
+Copyright (c) 2025, Gero Gerke.
 Copyright (c) 2024, MapTiler.com & OpenMapTiles contributors.  
 Copyright (c) 2014, Mapbox.  
-Copyright (c) 2025, Gero Gerke.
 All rights reserved.
 
 Modifications by Gero Gerke, MapTiler.com & OpenMapTiles contributors.
