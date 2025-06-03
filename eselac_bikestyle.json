@@ -1301,16 +1301,12 @@
       }
     },
     {
-      "id": "bridge-trunk-primary-casing",
+      "id": "bridge-trunk-casing",
       "type": "line",
       "metadata": {"mapbox:group": "1444849334699.1902"},
       "source": "openmaptiles",
       "source-layer": "transportation",
-      "filter": [
-        "all",
-        ["==", "brunnel", "bridge"],
-        ["in", "class", "primary", "trunk"]
-      ],
+      "filter": ["all", ["==", "brunnel", "bridge"], ["in", "class", "trunk"]],
       "layout": {"line-join": "round"},
       "paint": {
         "line-color": "#e9ac77",
@@ -1322,7 +1318,20 @@
       }
     },
     {
-      "id": "bridge-trunk-primary",
+      "id": "bridge-trunk",
+      "type": "line",
+      "metadata": {"mapbox:group": "1444849334699.1902"},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["all", ["==", "brunnel", "bridge"], ["in", "class", "trunk"]],
+      "layout": {"line-join": "round"},
+      "paint": {
+        "line-color": "#fea",
+        "line-width": {"base": 1.2, "stops": [[6.5, 0], [7, 0.5], [20, 18]]}
+      }
+    },
+    {
+      "id": "bridge-primary",
       "type": "line",
       "metadata": {"mapbox:group": "1444849334699.1902"},
       "source": "openmaptiles",
@@ -1330,11 +1339,11 @@
       "filter": [
         "all",
         ["==", "brunnel", "bridge"],
-        ["in", "class", "primary", "trunk"]
+        ["in", "class", "primary"]
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#fea",
+        "line-color": "rgba(255, 255, 255, 1)",
         "line-width": {"base": 1.2, "stops": [[6.5, 0], [7, 0.5], [20, 18]]}
       }
     },
